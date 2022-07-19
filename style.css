@@ -1,0 +1,94 @@
+/*.......import....... */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f3f1ff;
+}
+
+/* .......Navbar start..... */
+.navbar {
+    display: flex;
+    color: white;
+    background-color: #562eff;
+    justify-content: space-around;
+    height: 60px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 30px;
+    margin-right: 10px;
+}
+.logo-brand-name {
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+.nav-left a {
+    text-decoration: none;
+    color: white;
+    margin-right: 45px;
+    font-weight: 300;
+    font-size: 13px;
+}
+.nav-left img {
+    width: 40px;
+}
+/* ..........Navbar-end...... */
+
+/* ......Main top....... */
+.body-part-1 {
+    background-color: #ffffff;
+    width: 50%;
+    margin: 0 auto;
+}
+.h3 {
+    padding: 25px 0 30px 30px;
+    font-weight: 500;
+    color: #562eff;
+}
+.top-player {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.top-player img {
+    width: 50px;
+}
+.player {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+.player-name {
+    margin-left: 17px;
+}
+hr {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* ......main bottom.... */
+
+.top-blogs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.top-blogs img {
+    width: 160px;
+}
+.inline-block {
+    display: block;
+}
